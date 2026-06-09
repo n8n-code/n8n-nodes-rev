@@ -8,7 +8,7 @@ import type {
 export class RevApi implements ICredentialType {
 	name = 'N8nDevRevApi';
 
-	displayName = 'rev API';
+	displayName = 'Rev API';
 
 	icon: Icon = { light: 'file:../nodes/Rev/rev.png', dark: 'file:../nodes/Rev/rev.dark.png' };
 
@@ -22,7 +22,7 @@ export class RevApi implements ICredentialType {
 			default: 'https://api.rev.ai/speechtotext/v1',
 			required: true,
 			placeholder: 'https://api.rev.ai/speechtotext/v1',
-			description: 'The base URL of your rev API server',
+			description: 'The base URL of your Rev API server',
 		},
 		{
 			displayName: 'API Key',

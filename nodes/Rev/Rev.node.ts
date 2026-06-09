@@ -6,14 +6,14 @@ import { transcriptDescription } from './resources/transcript';
 
 export class Rev implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'rev',
+		displayName: 'Rev',
 		name: 'N8nDevRev',
 		icon: { light: 'file:./rev.png', dark: 'file:./rev.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Rev.ai provides quality speech-text recognition via a RESTful API. All public methods and objects are documented here for developer reference',
-		defaults: { name: 'rev' },
+		defaults: { name: 'Rev' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

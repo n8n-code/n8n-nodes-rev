@@ -53,12 +53,36 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Account | Get account |
-| Jobs | Get list of jobs, Post submit transcription job, Delete job by id, Get job by id |
-| Captions | Get captions |
-| Transcript | Get transcript by id |
+<details>
+<summary><b>Account</b> (1 operations)</summary>
+
+- Get Account
+
+</details>
+
+<details>
+<summary><b>Jobs</b> (4 operations)</summary>
+
+- Get List of Jobs
+- Post Submit Transcription Job
+- Delete Job by ID
+- Get Job By ID
+
+</details>
+
+<details>
+<summary><b>Captions</b> (1 operations)</summary>
+
+- Get Captions
+
+</details>
+
+<details>
+<summary><b>Transcript</b> (1 operations)</summary>
+
+- Get Transcript By ID
+
+</details>
 
 ---
 

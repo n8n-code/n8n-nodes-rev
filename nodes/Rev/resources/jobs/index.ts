@@ -39,8 +39,8 @@ export const jobsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Job By Id",
-					"value": "Delete Job By Id",
+					"name": "Delete Job By ID",
+					"value": "Delete Job By ID",
 					"action": "Delete Job by Id",
 					"description": "Deletes a transcription job. All data related to the job, such as input media and transcript, will be permanently deleted. A job can only be deleted once it's completed (either with success or failure).",
 					"routing": {
@@ -51,8 +51,8 @@ export const jobsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Job By Id",
-					"value": "Get Job By Id",
+					"name": "Get Job By ID",
+					"value": "Get Job By ID",
 					"action": "Get Job By Id",
 					"description": "Returns information about a transcription job",
 					"routing": {
@@ -233,7 +233,7 @@ export const jobsDescription: INodeProperties[] = [
 						"Jobs"
 					],
 					"operation": [
-						"Delete Job By Id"
+						"Delete Job By ID"
 					]
 				}
 			}
@@ -258,7 +258,7 @@ export const jobsDescription: INodeProperties[] = [
 						"Jobs"
 					],
 					"operation": [
-						"Delete Job By Id"
+						"Delete Job By ID"
 					]
 				}
 			}
@@ -277,7 +277,7 @@ export const jobsDescription: INodeProperties[] = [
 						"Jobs"
 					],
 					"operation": [
-						"Get Job By Id"
+						"Get Job By ID"
 					]
 				}
 			}
@@ -302,7 +302,7 @@ export const jobsDescription: INodeProperties[] = [
 						"Jobs"
 					],
 					"operation": [
-						"Get Job By Id"
+						"Get Job By ID"
 					]
 				}
 			}
